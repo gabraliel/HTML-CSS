@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            color: rgb(0, 0, 0);
+            background-color: rgb(56, 56, 56);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            padding: 5px; 
+            margin: 5px;
+        }
+        nav {
+            background-color: rgb(146, 146, 146);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px #00000049;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav >a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px 2px;
+            box-shadow: 2px 2px 4px 1px #00000049;
+
+        }
+        article {
+            background-color: rgb(156, 156, 156);
+            padding: 5px;
+            border-radius: 20px 2px;
+            box-shadow: 2px 2px 4px 1px #00000049;
+        }
+        article > aside {
+            background-color: rgb(255, 255, 255);
+            text-decoration: overline;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            width: 300px;
+            height: 18px;
+            padding: 3px;
+            margin: auto;
+            font-size: 14px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola { /* Apenas teste e exercício*/
+            background-color: white;
+            margin: 10px auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.575);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="c">Cabeçalho</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati magni repellendus perspiciatis provident at labore accusamus voluptatum, quis cupiditate suscipit corrupti exercitationem odio non nihil nobis dignissimos possimus illum incidunt.</p>
+                <aside>
+                    <p>artigo escrito por: Jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por gabriel</p>
+    </footer>
+    <div id="bola" ></div>
+</body>
+</html>

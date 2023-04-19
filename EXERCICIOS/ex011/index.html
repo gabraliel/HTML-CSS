@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídeas HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esta imagem em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 530px)" srcset="imagens/lua-300px.png" type="image/PNG">
+        <source media="(max-width: 750px)" srcset="imagens/lua-500px.png" type="image/PNG">
+        <source media="(max-width: 1050px)" srcset="imagens/lua-700px.png" type="image/PNG">
+        <img src="imagens/lua-1000px.png" alt="lua-flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio  preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não pode reproduzir seu audio, mas você pode baixa-lo <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3">clicando aqui</a></p>
+    </audio>
+</body>
+</html>
